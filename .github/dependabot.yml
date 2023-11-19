@@ -11,3 +11,4 @@ updates:
       interval: "daily"
     allow:
       - dependency-name: "github.com/hashicorp/packer-plugin-sdk"
+      - dependency-name: "github.com/OpenNebula/one/src/oca/go/src/goca"
