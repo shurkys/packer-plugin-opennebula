@@ -1,0 +1,36 @@
+<!-- Code generated from the comments of the VMTemplateConfig struct in builder/opennebula/common/config.go; DO NOT EDIT MANUALLY -->
+
+- `vm_name` (string) - Name
+
+- `vm_cpu` (float64) - CPU
+
+- `vm_cpu_model` (string) - CPU Model
+
+- `vm_description` (string) - Description
+
+- `enable_vnc` (bool) - Disks          []DiskConfig `mapstructure:"vm_disks"` // Используется массив для дисков
+  ImageConfigs  []ImageConfig `mapstructure:"vm_disks"` // Используется массив для дисков
+
+- `vm_graphics_keymap` (string) - Graphics Keymap
+
+- `vm_graphics_listen` (string) - Graphics Listen
+
+- `vm_graphics_type` (string) - Graphics Type
+
+- `vm_hypervisor` (string) - Hypervisor
+
+- `vm_logo` (string) - Logo
+
+- `vm_memory` (int) - Memory
+
+- `vm_nics` ([]NICConfig) - NI Cs
+
+- `vm_os_arch` (string) - OS Arch
+
+- `vm_os_boot` (string) - OS Boot
+
+- `vm_vcpu` (int) - VCPU
+
+- `vm_user_data` (string) - User Data
+
+<!-- End of code generated from the comments of the VMTemplateConfig struct in builder/opennebula/common/config.go; -->

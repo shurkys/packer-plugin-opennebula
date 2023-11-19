@@ -1,4 +1,4 @@
-module packer-plugin-opennebula
+module github.com/shurkys/packer-plugin-opennebula
 
 go 1.18
 
