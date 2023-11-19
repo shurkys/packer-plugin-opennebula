@@ -7,7 +7,7 @@ import (
 	"github.com/hashicorp/packer-plugin-sdk/multistep"
 	packersdk "github.com/hashicorp/packer-plugin-sdk/packer"
 
-	onecommon "github.com/shurkys/packer-plugin-opennebula/builder/opennebula/common"
+	onecommon "packer-plugin-opennebula/builder/opennebula/common"
 )
 
 // The unique id for the builder

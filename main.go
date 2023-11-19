@@ -5,9 +5,9 @@ import (
 	"os"
 
 	"github.com/hashicorp/packer-plugin-sdk/plugin"
-	"github.com/shurkys/packer-plugin-opennebula/builder/opennebula/image"
-	"github.com/shurkys/packer-plugin-opennebula/builder/opennebula/iso"
-	"github.com/shurkys/packer-plugin-opennebula/version"
+	"packer-plugin-opennebula/builder/opennebula/image"
+	"packer-plugin-opennebula/builder/opennebula/iso"
+	"packer-plugin-opennebula/version"
 )
 
 func main() {
