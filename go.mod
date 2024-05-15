@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/OpenNebula/one/src/oca/go/src/goca v0.0.0-20231018143324-c461d3084637
 	github.com/hashicorp/hcl/v2 v2.19.1
-	github.com/hashicorp/packer-plugin-sdk v0.5.2
+	github.com/hashicorp/packer-plugin-sdk v0.5.3
 	github.com/mitchellh/go-vnc v0.0.0-20150629162542-723ed9867aed
 	github.com/zclconf/go-cty v1.13.3
 )
