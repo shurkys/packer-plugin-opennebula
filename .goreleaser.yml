@@ -2,6 +2,10 @@
 # Make sure to check the documentation at http://goreleaser.com
 env:
   - CGO_ENABLED=0
+  
+# See http://goreleaser.com
+version: 2
+
 before:
   hooks:
     # We strongly recommend running tests to catch any regression before release.
